@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samson Kumeni"/>
+    <meta name="keywords" content="portfolio, consultant"/>
+    
+    <!-- FontAwesome icons -->
+    <script src="https://kit.fontawesome.com/e477c42a9e.js" crossorigin="anonymous"></script>
+
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+    crossorigin="anonymous">
+
+    <!-- Latest Compiled minified css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- The main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+    <title>Awesome Websites</title>
+</head>
+<body style="position:relative">
+
+    <div class="text-right text-white" id="smallNav">
+        <div id="posContainer">
+            <span id="toggle" onclick="handleNavClick()">
+                <i class="fas fa-bars"></i>
+            </span>
+            <div>
+                <ul class="text-left" id="target">
+                    <li><a class="" href="#row1">Home</a></li>
+                    <li><a class="" href="#row2">What we do</a></li>
+                    <li><a class="" href="#row3Container">About us</a></li>
+                    <li><a class="" href="#footer">Contact us</a></li>
+                    <li><a class="" style="border-bottom:none;" href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- The first first row of the webpage -->
+
+    <div class="container-fluid" id="row1">
+        <div class="container-xl text-white" style="padding-top:0px;">
+            <div>
+                <div class="align-self-start d-flex" id="navCont">
+                        <div class="align-self-center pt-2" id="logoContainer">
+                            <img src="./images/Companylogosmall.png" alt="awesome websites logo" id="logo"/>
+                        </div>
+                        <div class="flex-fill">
+                            <div class="list-group list-group-horizontal list-group-flush ">
+                                <a id="headerCompanyName" class="list-group-item flex-fill flex-shrink-1" href="#row1"><strong>Awesome Website</strong></a>
+                                <a class="list-group-item lg-screen" href="#row3Container">About us</a>
+                                <a class="list-group-item lg-screen" href="#row2">What we do</a>
+                                <a class="list-group-item lg-screen" href="#">Contact us</a>
+                            </div>
+                        </div>
+                        <div class="align-self-center flex-shrink-0" id="smallNavContainer">
+                            <button class="btn btn-outline-light btn ml-3 pl-4 pr-4 btn-circle lg-screen">Sign in</button>
+                        </div>
+                </div>
+                <div>
+                    <strong id="bodyCompanyName">Awesome  Website</strong>
+                </div>
+            </div>
+            <div id="landingContent">
+                <div class="p-1 d-flex" id="landingContentHolder">
+                    <div class="flex-shrink-0" id="dukuduku">
+                        <h1>-----</h1>
+                    </div>
+                    <div class="">
+                        <h1>Professional Business <br> Consulting</h1>
+                        <p>Awesome website provides reliable business planning,
+                            management and advisory services backed by years
+                            of experience in the industry.
+                        </p>
+                        <button class="btn btn-lg btn-outline-light btn-circle  m-1"> Read more </button>
+                        <button class="btn btn-lg btn-outline-light btn-circle  m-1"> Contact Us </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="row2" class="container-fluid">
+        <div class="container-xl pt-2">
+            <div class="text-center">
+                <button class="text-info pl-2 pr-2">Our Services</button> 
+                <h4> What We Do </h4>
+            </div>
+            <div class="mx-auto d-flex flex-row justify-content-center flex-wrap align-content-around" id="row2Container">
+                    <div class="flex-shrink-0">
+                        <span>
+                            <i class="fas fa-desktop"></i>
+                        </span>
+                        <h6>Market Analysis</h6>
+                        <p>we support your business with fact based market research</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span>
+                            <i class="fas fa-coins"></i>
+                        </span>
+                        <h6>Fund Management</h6>
+                        <p>Allowing you to successfully deal with your company's funds</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span>
+                            <i class="fas fa-chart-line"></i>
+                        </span>
+                        <h6>PR and Marketing</h6>
+                        <p>Helping clients expand awareness and manage their reputation</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span>
+                            <i class="fas fa-list-ol"></i>
+                        </span>
+                        <h6>Business Planning</h6>
+                        <p>Creating an efficient business plan designed to fit your company</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span>
+                            <i class="fas fa-search-dollar"></i>
+                        </span>
+                        <h6>Audit</h6>
+                        <p>Deep and detailed investigation of your company's activity</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <span>
+                            <i class="far fa-comment-dots"></i>
+                        </span>
+                        <h6>Consulting</h6>
+                        <p>Focusing on our clients' most critical issues and opportunities</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="row3">
+        <div id="row3A" class="container-fluid d-flex justify-content-center">
+            <div class="flex-shrink-0 flex-grow-0">
+                <img class="d-block mx-auto" src="./images/wp2223713-cheers-wallpapers.jpg" alt="wp2223713-cheers-wallpapers"/>
+            </div>
+            <div class="flex-shrink-0 flex-grow-0 text-white">
+                <div id="row3Container" class="mx-auto">
+                    <button style="border:none;"class="btn-circle btn-outline-info pl-3 pr-3">ABOUT BUSINESS</button>
+                    <h3>A Few Words About Us</h3>
+                    <p>
+                        Our consulting company is a leading firm of business managers
+                        and advisors with offices across the USA. We aim to provide to
+                        you:
+
+                        <ul>
+                            <li>Quality research & analysis</li>
+                            <li>Business advisory experience</li>
+                            <li>Reliable company management</li>
+                        </ul>
+                    </p>
+                    <button class="btn btn-circle btn-outline-light"> Read More </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright &copy 2020  Awesome Websites</p>
+    </footer>
+    <script src="./script.js">
+    </script>
+</body>
+</html>
